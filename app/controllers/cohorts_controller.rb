@@ -15,7 +15,7 @@ class CohortsController < ApplicationController
 
     end
 
-    def delete
+    def destroy
         
     end
 end

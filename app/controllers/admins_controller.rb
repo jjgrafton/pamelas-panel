@@ -15,7 +15,7 @@ class AdminsController < ApplicationController
 
     end
 
-    def delete
+    def destroy
         
     end
 end
