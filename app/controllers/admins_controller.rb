@@ -3,6 +3,10 @@ class AdminsController < ApplicationController
 
     end
 
+    def new
+        
+    end
+
     def create
 
     end

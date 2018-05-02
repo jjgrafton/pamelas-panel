@@ -3,6 +3,10 @@ class CohortsController < ApplicationController
 
     end
 
+    def new
+        
+    end
+
     def create
 
     end
