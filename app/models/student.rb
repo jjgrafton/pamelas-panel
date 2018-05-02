@@ -1,5 +1,5 @@
 class Student < ApplicationRecord
-    has_many :courses
+    has_many :courses, through :cohorts
     has_many :instructors
-    has_many :cohorts, through :courses
+    has_many :cohorts
 end
