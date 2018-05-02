@@ -3,7 +3,7 @@ class CoursesController < ApplicationController
 
     end
 
-    def new
+    def create
 
     end
 
@@ -11,11 +11,15 @@ class CoursesController < ApplicationController
 
     end
 
+    def update
+        
+    end
+
     def show
 
     end
 
     def destroy
-
+        
     end
 end
