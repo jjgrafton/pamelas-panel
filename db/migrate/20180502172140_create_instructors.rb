@@ -6,8 +6,6 @@ class CreateInstructors < ActiveRecord::Migration[5.2]
       t.integer :age
       t.integer :salary
       t.string :highest_ed
-
-      t.timestamps
     end
   end
 end
